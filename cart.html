@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>하바티 메인</title>
+    <link rel="stylesheet" href="./src/css/cart.css">
+    <!--폰트어썸 CDN : -->
+    <script src="https://kit.fontawesome.com/4ec79785b5.js" crossorigin="anonymous"></script>
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- 상단 스크롤 버튼 -->
+    <div><a href="#" class="btn_top"><i class="fa-solid fa-angles-up"></i></a></div>
+    <!-- 사이드 메뉴 부분 시작 -->
+    <div id="sidemenu_show"></div>
+    <div class="side-menu-wrap" id="side_menu">
+        <div>
+            <ul><a href="#">ABOUT</a></ul>
+            <ul><a href="#">SHOP</a>
+                <li><a href="#">SEASON OFF</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">NEW ARRIVALS</a></li>
+                <li><a href="#">Outer</a></li>
+                <li><a href="#">Tops</a></li>
+                <li><a href="#">Bottoms</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Hats</a></li>
+                <li><a href="#">ACC</a></li>
+                <li><a href="#">WOMAN</a></li>
+            </ul>
+            <ul><a href="#">ACCOUNT</a>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="joinus.html">Join us</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Myshop</a></li>
+                <li><a href="#">Wishlist</a></li>
+            </ul>
+            <ul><a href="#">COMMUNITY</a>
+                <li><a href="#">Notice</a></li>
+                <li><a href="#">Q / A</a></li>
+                <li><a href="#">Review</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <!-- 우측상단 메뉴&메인로고 -->
+    <div class="header-fix">
+        <div class="header-wrap">
+            <div class="header1">
+                <div class="sub-menu">
+                    <div class="search"><input id="search_input" type="search">
+                        <button id="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <button id="sidemenu_btn"><i class="fa-solid fa-bars"></button></i>
+                </div>
+            </div>
+            <div class="main-logo">
+                <div>
+                    <a href="index.html"><img class="main-logo-img"
+                            src="https://havatishop.com/web/upload/category/logo/9f13dcb92741e8c4377aa9ff1154e317_tJeMlGyOOh_3_top.jpg"
+                            alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 메인 메뉴 바 -->
+        <div class="main-menu">
+            <ul>
+                <li class="main-menu-parent"><a href="#">JOURNAL</a></li>
+                <li class="main-menu-parent"><a href="#">ABOUT</a></li>
+                <li class="main-menu-parent"><a href="#">SHOP</a>
+                    <ul class="main-menu-child" id="shop-menu">
+                        <li id="season_off"><a href="#">SEASON OFF</a></li>
+                        <li id="brand"><a href="#">BRAND</a></li>
+                        <li><a href="#">NEW ARRIVALS</a></li>
+                        <li><a href="#">OUTER</a></li>
+                        <li><a href="#">TOPS</a></li>
+                        <li><a href="#">BOTTOMS</a></li>
+                        <li><a href="#">SHOES</a></li>
+                        <li><a href="#">BAGS</a></li>
+                        <li><a href="#">HATS</a></li>
+                        <li><a href="#">ACC</a></li>
+                        <li id="woman"><a href="#">WOMAN</a></li>
+                    </ul>
+                </li>
+                <li class="main-menu-parent"><a href="#">ACCOUNT</a>
+                    <ul class="main-menu-child" id="account-menu">
+                        <li><a href="login.html">LOGIN</a></li>
+                        <li><a href="joinus.html">JOIN US</a></li>
+                        <li><a href="cart.html">CART</a></li>
+                        <li><a href="#">MYSHOP</a></li>
+                        <li><a href="#">WISH LIST</a></li>
+                        <li><a href="#">ORDER LIST</a></li>
+                    </ul>
+                </li>
+                <li class="main-menu-parent"><a href="#">COMMUNITY</a>
+                    <ul class="main-menu-child" id="community-menu">
+                        <li class="notice"><a href="#">NOTICE</a></li>
+                        <li class="qna"><a href="#">Q/A</a></li>
+                        <li class="review"><a href="#">REVIEW</a></li>
+                    </ul>
+                </li>
+                <li class="main-menu-parent"><a href="#">DAILY</a></li>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 상세페이지 시작 -->
+    <div class="container">
+        <div class="empty_space"></div>
+        <div class="wrap">
+            <div class="item_wrap">
+                <div class="table_title">
+                    <h2>장바구니</h2>
+                </div>
+                <div class="infomation">
+                    <div class="infomation_title">
+                        <h2>혜택정보</h2>
+                    </div>
+                    <div class="description">
+                        <ul>
+                            <li>VIP 회원님 반갑습니다!!! 🎈</li>
+                            <li>전체 사이트 개발은 에이콘 아카데미 자바 풀스택반 수료 이후 가능합니다</li>
+                            <li>개발 전 저희 사이트를 방문해 주셔서 감사합니다.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cart_table_wrap">
+                    <form id="frm">
+                      <table class="cart_table">
+                        <thead>
+                          <tr>
+                            <th>삭제</th>
+                            <th>사진</th>
+                            <th>상품명</th>
+                            <th>수량</th>
+                            <th>상품금액</th>
+                          </tr>
+                        </thead>
+                        <tbody></tbody>
+                      </table>
+                      <div class="no_cart_item"></div>
+                    </form>
+                    <div class="cart_details_wrap">
+                        <div class="cart_drop_wrap">
+                          <div>선택한 상품</div>
+                          <button id="dropItem">삭제하기</button>
+                        </div>
+                        <div class="cart_price_wrap">
+                          <div class="cart_price"></div>
+                          <button id="order">주문하기</button>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- 하단 부분 시작 -->
+    <div class="footer_wrap">
+        <div class="footer_holder">
+            <div class="footer_logo"><a href="index.html"><img class="footer_logo_img
+            " src="https://havatishop.com/web/upload/category/logo/9f13dcb92741e8c4377aa9ff1154e317_tJeMlGyOOh_3_top.jpg"
+                        alt=""></a></div>
+        </div>
+        <div class="footer_nav">
+            <ul>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">AGREEMENT</a></li>
+                <li><a href="#">PRIVACY</a></li>
+                <li><a href="#">GUIDE</a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            <p><span>Company : 주식회사 316컴퍼니</span>|<span>CEO : 임지혁</span>|<span>Business Register :
+                    [698-87-02484]</span>|<span>On-Line Register : 2022-서울마포-3242</span>|<span><a
+                        href="#">[사업자정보확인]</a></span><br><span class="">Tel : 070-4042-3877 서울 연남(온라인) / 070-8800-3877
+                    포항 </span>|<span class="">E-mail : havati@naver.com</span>|
+                <br><span>Address : (연남) 03993 서울특별시 마포구 동교로 209-4 (동교동) 1층 2층 / (포항) 37759 포항시 남구 희망대로 659번길 65 102호
+                </span><br><span class="">개인정보관리책임자 : <a href="#">임지혁</a></span>|<span>Bank Accounts : 국민은행
+                    032937-04-010291 주식회사 316컴퍼니 </span><br><br><span class="">CS Center : 070-4042-3877</span><span>PM
+                    01:00 ~ PM 09:00 (Sunday Closed) </span><br><br>
+            </p>
+        </div>
+        <div class="social_nav">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-solid fa-bold"></i></a>
+        </div>
+        <div class="footer_copyright">
+            <p class="copyright">
+                Copyright © 2017 <strong>하바티</strong>. All rights reserved.©
+            </p>
+        </div>
+    </div>
+
+
+
+    <!-- 자바스크립트 -->
+    <script src="./src/js/app.js"></script>
+    <script type="module" src="./src/js/cart.js"></script>
+</body>
+
+</html>
